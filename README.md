@@ -18,6 +18,5 @@ Explore a dynamic website project that seamlessly transitions between dark and l
 - HTML5
 - CSS3
 - JavaScript
-- [Confetti.js](https://www.cssscript.com/confetti-falling-animation/)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
