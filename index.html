@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- fontawasm CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel ="stylesheet" href="style.css" type="text/css">
+    <title>Speed Key</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/keyboard.png">
+
+</head>
+
+<body >
+<section id="landing">
+    
+    <nav class="navbar  navbar-expand-lg navbar-dark  " >
+        <a class="navbar-brand r" href="#landing"><i class="fa fa-keyboard-o fa-lg" aria-hidden="true"></i> TypeSpeed</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#landing"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li> <a  class="nav-link" href="#info"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+                <li> <a  class="nav-link" href="#tips"><i class="fa fa-hourglass-start" aria-hidden="true"></i> Getting started</a></li>
+                <li> <a  class="nav-link" href="#typeIt"><i class="fa fa-play" aria-hidden="true" ></i> TypeIt </a></li>                            
+            </ul>
+         <span class="navbar-text">             
+                <button class="btn" id="theme"  onclick="theme()" style="color:aliceblue;" >Change Theme</button>
+          </span>  
+        </div>
+    </nav>
+
+    <div class="landing-img">
+        <div class="land" >
+          <h1>WELCOME</h1>
+            <p id="landing-text"<i class="fa fa-rocket" aria-hidden="true">Typing Speed and Accuracy</i> </p>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section id="info">
+    <div class="heading-info"><h3>______Three Features______</h3></div>
+    <div class="info-box">
+        <div class="card mt-5 info-box-1" style="width: 18rem;">
+            <img class="card-img-top mypicbox" src="img/cat-red.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style="color:brown;border-bottom: 1px solid brown; ">VAST RANDOM TEXT</h5>
+                <p class="card-title">You can select  random paragraph or  nonsense letters with digits symbols. And also suffle it at any time with just one key. </p>             
+             </div>
+          </div>
+          <div class="card mt-5 info-box-2" style="width: 18rem;">
+            <img class="card-img-top mypicbox" src="img/cat.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style=" color:rgb(214, 218, 6);border-bottom: 1px solid rgb(214, 218, 6);">DARK MODE</h5>
+                <p class="card-title">Whoopee! No more eye pain.No more stress.Any time change you can change the minimal light theme to pleasing dark mode to rest your eyes.</p>           
+             </div>
+          </div>
+          <div class="card mt-5 info-box-3" style="width: 18rem;">
+            <img class="card-img-top mypicbox" src="img/cat-dark.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style="color:rgb(18, 117, 26);border-bottom: 1px solid rgb(18, 117, 26);">ONE PAGE APP</h5>
+                <p class="card-title">No more links. No more distraction. No more Chatter. In one page get all the necessery things</p>            
+             </div>
+          </div>       
+    </div>
+   
+</section>
+
+
+<section id="tips">
+    <div class="heading-tips"><h3>______Getting Started______</h3></div>
+    <div class="tips_row">
+        <div>___STEP 1___<br>Sit straight and remember to keep your back straight.
+            Keep your elbows bent at the right angle.
+            Face the screen with your head slightly tilted forward.
+            Еxpose the shoulder, arm, and wrist muscles to the least possible strain. The wrists can touch the tabletop in front of the keyboard. Never shift your body weight to the wrists by resting on them.</div>
+    
+    <div>___STEP 2___<br>Curve your fingers a little and put them on the ASDF and JKL;
+        keys which are located in the middle row of the letter keys. 
+        This row is called HOME ROW because you always start from these keys and always return to them.
+
+       F and J keys under your index fingers should have a raised line on them to aide in finding these keys without looking.
+    </div>
+        <div>___STEP 3___<br>Don't look at the keys when you type. Just slide your fingers around until they find the home row marking.
+
+            Limit your hand and finger movement only to what is necessary to press a specific key. Keep your hands and fingers close to the base position. This improves typing speed and reduces stress on the hands.
+            </div>
+        <div>___STEP 4___<br>Do not rush when you just started learning. Speed up only when your fingers hit the right keys out of habit.
+            Take your time when typing to avoid mistakes. The speed will pick up as you progress.
+            Always scan the text a word or two in advance.
+            Pass all typing lessons at Ratatype. It will help you to get above the average typing speed.</div>
+        </div>
+       
+</section>
+
+
+
+<section id="typeIt">
+    <h3>______Practice your Typing______</h3>
+    <div class="typeBox">
+        <div class="refBox">
+            <p id="referenceText"></p>
+            <button class="btn   btn-outline-primary " id="bt1" onclick="startTest()">Start</button>
+            <button class="btn   btn-outline-danger settings" id="settings" onclick="settings()"><i class="fa fa-cog" aria-hidden="true"></i></button>
+            <button class="btn   btn-outline-danger " id="suffle" onclick="check()"><i class="fa fa-random" aria-hidden="true"></i></button>
+            <button class="btn  btn-outline-info" id="bt2"  onclick="stopTest()">Stop</button>
+        </div>
+
+
+        <div class="settings_text" id="settings_text">
+            <h3>_____Select text for practice_____</h3>
+          
+                <input type="radio" class="form-check-input" id="paragraph" name="selectText" value="paragraph"  checked onclick="check();settings()">
+                <label class="form-check-label" for="paragraph">Random paragraph</label>                        
+            <br>          
+                <input type="radio" class="form-check-input" id="nonsenceWord" name="selectText" value="nonsenceWord" onclick="check();settings()">
+                <label class="form-check-label" for="nonsenceWord">Random Nonsence letters</label>      
+        </div>
+
+
+        <div class="current">
+            <div class="currentLetter" id="word"></div>
+            <div class="timer" id="timespend"></div>
+            <div class="wrongLetter" id="log1"></div>
+        </div>
+
+
+        <div class="result" >
+            <p id="log"></p>
+        </div>
+    </div>
+   
+</section>
+
+
+
+
+
+<section id="foot">
+    <footer>
+    <p class="fp"><b>TypeSpeed using javascript html css</b><br> Developed by Arshia Sharifi , 2023</p>
+    </footer>
+</section>
+
+    
+     
+    
+    <script src="key.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
